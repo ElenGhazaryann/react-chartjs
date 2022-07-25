@@ -1,0 +1,19 @@
+@import "./../../variables/variables.scss";
+
+.line-wrapper {
+  // width: 500px;
+  width: 60%;
+  background: $lightBlackColor;
+  position: relative;
+  div {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    select {
+      border: none;
+      outline: 0;
+      background-color: transparent;
+      color: $whiteFontColor;
+    }
+  }
+}

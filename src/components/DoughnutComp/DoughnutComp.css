@@ -1,0 +1,11 @@
+.activeMedias-wrapper {
+  width: 20%;
+  background: #222222;
+  position: relative;
+}
+.activeMedias-wrapper div {
+  color: #c7c7c7;
+  position: absolute;
+  top: 86px;
+  left: 117px;
+}/*# sourceMappingURL=DoughnutComp.css.map */

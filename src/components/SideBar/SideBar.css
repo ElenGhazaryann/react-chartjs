@@ -1,0 +1,30 @@
+.sidebarWrapper {
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c7c7c7;
+  background: #222222;
+}
+.sidebarWrapper h1 {
+  width: 94%;
+  margin: 3px;
+  margin-top: 0;
+  border: 2px solid red;
+  text-align: center;
+}
+.sidebarWrapper svg {
+  width: 20px;
+  margin: 6px;
+  fill: #c7c7c7;
+}
+.sidebarWrapper p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 360px) {
+  .sidebarWrapper {
+    display: none;
+  }
+}/*# sourceMappingURL=SideBar.css.map */

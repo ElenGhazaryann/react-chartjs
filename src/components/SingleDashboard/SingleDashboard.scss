@@ -1,0 +1,32 @@
+@import "./../../variables/variables.scss";
+
+.singleDashboard-wrapper {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .data-wrapper {
+    font-family: $mainFontFamily;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .green {
+    color: $greenColor;
+  }
+  .yellow {
+    color: $yellowColor;
+  }
+  .blue {
+    color: $blueColor;
+  }
+  .dash-children-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $mainFontFamily;
+    font-size: $mainFontSize;
+    color: $blackFontColor;
+  }
+}

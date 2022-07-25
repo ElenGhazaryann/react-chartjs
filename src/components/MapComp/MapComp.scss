@@ -1,0 +1,49 @@
+@import "./../../variables/variables.scss";
+.map-selected {
+  fill: #ffdc00;
+}
+
+.map-unselected {
+  fill: $heartGreyColor;
+}
+
+.map-selected:hover,
+.map-unselected:hover {
+  cursor: pointer;
+}
+
+.map-wrapper {
+  width: 60%;
+  background-color: $lightBlackColor;
+  div {
+    display: flex;
+    justify-content: space-between;
+    select {
+      border: none;
+      outline: 0;
+      background-color: transparent;
+      color: $whiteFontColor;
+    }
+  }
+  p {
+    margin: 0;
+    padding-top: 7px;
+    color: $whiteFontColor;
+    font-family: $mainFontFamily;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  li {
+    color: $whiteFontColor;
+    font-family: $mainFontFamily;
+    font-size: $mainFontSize;
+    margin: 1px;
+  }
+  svg {
+    // width: 450px;
+    width: 90%;
+    height: 120px;
+    margin-top: 30px;
+    background-color: $lightBlackColor;
+  }
+}

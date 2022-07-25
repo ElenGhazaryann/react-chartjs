@@ -1,0 +1,32 @@
+@import "./../../variables/variables.scss";
+
+header {
+  display: flex;
+  padding-left: 90px;
+  justify-content: space-between;
+  .header-cn {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .lang {
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // padding-left: 15px;
+      font-family: $mainFontFamily;
+      border-right: 1px solid $borderColor;
+      border-left: 1px solid $borderColor;
+      height: 100%;
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+  svg {
+    // margin-left: 100px;
+    width: 15px;
+  }
+}

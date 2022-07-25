@@ -1,0 +1,35 @@
+.dashboard-info {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+  background-color: #ececec;
+  font-weight: 600;
+  color: #878686;
+}
+.dashboard-info div {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8d8d8;
+  font-weight: 600;
+}
+.dashboard-info div svg {
+  width: 15px;
+  fill: #878686;
+}
+
+.dashboard-wrapper {
+  display: flex;
+}
+.dashboard-wrapper svg {
+  width: 15px;
+}
+
+@media only screen and (max-width: 360px) {
+  .dashboard-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Dashboard.css.map */

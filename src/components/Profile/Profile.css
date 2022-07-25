@@ -1,0 +1,15 @@
+.profile-wrapper {
+  display: flex;
+}
+.profile-wrapper .name-wrapper {
+  width: 250px;
+  font-family: "Roboto", sans-serif;
+  color: #c7c7c7;
+}
+.profile-wrapper .name-wrapper p {
+  margin: 3px;
+}
+.profile-wrapper svg {
+  width: 30px;
+  margin-right: 10px;
+}/*# sourceMappingURL=Profile.css.map */

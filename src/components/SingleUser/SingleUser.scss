@@ -1,0 +1,17 @@
+@import "./../../variables/variables.scss";
+
+.singleUser-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+  color: black;
+  border: 1px solid $borderColor;
+  span {
+    width: 80px;
+    text-align: center;
+    font-family: $mainFontFamily;
+    font-size: $mainFontSize;
+    color: $blackFontColor;
+  }
+}

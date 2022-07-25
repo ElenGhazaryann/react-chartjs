@@ -1,0 +1,17 @@
+.children-wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #353535;
+  color: #c7c7c7;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  border-right: 1px solid rgba(181, 176, 176, 0.5);
+  padding-left: 30px;
+}
+
+.user-heading span {
+  font-weight: 600;
+  color: #636363;
+}/*# sourceMappingURL=ListUsers.css.map */

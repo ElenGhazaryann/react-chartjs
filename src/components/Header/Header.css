@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  padding-left: 90px;
+  justify-content: space-between;
+}
+header .header-cn {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .header-cn .lang {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  border-right: 1px solid rgba(181, 176, 176, 0.5);
+  border-left: 1px solid rgba(181, 176, 176, 0.5);
+  height: 100%;
+}
+header .header-cn .lang img {
+  height: 20px;
+  width: 20px;
+}
+header svg {
+  width: 15px;
+}/*# sourceMappingURL=Header.css.map */

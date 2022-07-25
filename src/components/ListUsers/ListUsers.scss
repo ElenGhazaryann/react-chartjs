@@ -1,0 +1,19 @@
+@import "./../../variables/variables.scss";
+
+.children-wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: $lighterBlackColor;
+  color: $whiteFontColor;
+  font-family: $mainFontFamily;
+  font-size: $headerFontSize;
+  font-weight: 500;
+  border-right: 1px solid $borderColor;
+  padding-left: 30px;
+}
+
+.user-heading span {
+  font-weight: 600;
+  color: #636363;
+}

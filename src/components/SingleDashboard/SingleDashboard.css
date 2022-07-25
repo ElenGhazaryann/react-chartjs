@@ -1,0 +1,30 @@
+.singleDashboard-wrapper {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleDashboard-wrapper .data-wrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.singleDashboard-wrapper .green {
+  color: #01aaaa;
+}
+.singleDashboard-wrapper .yellow {
+  color: #fbcf71;
+}
+.singleDashboard-wrapper .blue {
+  color: #1f7bb6;
+}
+.singleDashboard-wrapper .dash-children-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #636363;
+}/*# sourceMappingURL=SingleDashboard.css.map */
